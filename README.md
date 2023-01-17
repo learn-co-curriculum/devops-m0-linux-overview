@@ -29,7 +29,7 @@ The kernel is a very *low-level* program that sits at the core of the operating 
 
 The remaining part of the operating system is commonly referred to as **user space** or **userland**. User space refers to essentially all code running *outside* of the kernel (but can still interact with it). This includes everything from init systems, window managers, to applications like your web browser.
 
-![User-space vs Kernel-space](./userspace-vs-kernelspace.png)
+![User-space vs Kernel-space](https://curriculum-content.s3.amazonaws.com/6685/devops-m0-linux-overview/userspace-vs-kernelspace.png)
 
 You are most likely already familiar with the most popular PC operating systems: **Windows**, **MacOS**, and **Linux**.
 
@@ -44,7 +44,7 @@ This course focuses on *Linux*, for reasons which will become apparent very soon
 Here's an infographic showcasing what the market share distribution of website-hosting *Linux* distros looks like:
 (Note that these are only *Linux servers*, *Linux desktop* marketshare would look different)
 
-![Linux distro marketshare](./linux-distros.png)
+![Linux distro marketshare](https://curriculum-content.s3.amazonaws.com/6685/devops-m0-linux-overview/linux-distros.png)
 
 > Source: W3Techs
 

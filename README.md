@@ -47,7 +47,7 @@ Here's an infographic showcasing what the market share distribution of *Linux* s
 
 > Note: These are only *Linux servers*, the marketshare for *Linux desktop* would look different
 
-Linus went ahead and made his creation completely free and open-source, in contrast to UNIX. This had the advantage that programmers everywhere could use *Linux* to design their own custom operating systems, including the aforementioned distros, as well as other operating systems, like *Android*.
+Linus went ahead and made his creation completely free and open-source, in contrast to *UNIX*. This had the advantage that programmers everywhere could use *Linux* to design their own custom operating systems, including the aforementioned distros, as well as other operating systems, like *Android*.
 
 Even then, however, *Linux* needed more than just the kernel if it wanted to succeed. That's where the *GNU* project came in.
 

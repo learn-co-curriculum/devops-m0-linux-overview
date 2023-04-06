@@ -11,21 +11,21 @@
 
 ## Introduction
 
-All around us, we rely on computers to communicate, work, and access information. Centered at the heart of this technology are operating systems, which among other things, manage the hardware and software resources of a computer. In this lesson, we will be exploring the basics of operating systems, as well as introducing one of the most popular operating systems around: *Linux*.
+All around us, we rely on computers to communicate, work, and access information. Centered at the heart of this technology are *operating systems*, which among other things, manage the hardware and software resources of a computer. In this lesson, we will be exploring the basics of operating systems, as well as introducing one of the most popular operating systems around: *Linux*.
 
 ## Operating systems
 
-The most important piece of software (or collection of software) that runs on your computer is the *operating system*.
+As you probably already know, computers are essentially divided into two parts: the hardware, making up the physical components of the computer, and the software, which runs *on* the hardware and exists in memory, but is intangible. The most important piece of software (or collection of software) that runs on your computer is what we call the *operating system*.
 
-The **operating system** is primarily responsible for *coordinating* the usage between the hardware (*CPU*, *RAM*, *Storage*, etc.) and the software running on that computer, as well as other functions like scheduling tasks, allocating memory, etc. Here's a very brief breakdown of some the hardware components:
+The **operating system** is primarily responsible for *coordinating* the usage between the hardware (*CPU*, *RAM*, *Storage*, etc.) and the software running on that computer, as well as other functions like scheduling tasks, allocating memory for programs to use, etc. Here's a very brief breakdown of some the hardware components:
 
-- **CPU** (Central Processing Unit): Executes the instructions that make up a program; performs primarily arithmetic and I/O operations.
-- **RAM** (Random-Access Memory): Memory that can be read/written in any order, meaning it is *very* fast. The trade-off is smaller amounts of memory than standard storage. Used for temporary data (program data, machine code, etc) since it is cleared very often. Also referred to as *primary storage*.
-- **Storage** (Hard/Solid-state Drives): This type of storage is cheaper and larger in size, while also being non-volatile and retaining data between reboots. Used for persistent data (system files, user files, etc). Also referred to as *secondary storage*.
+- **CPU** (Central Processing Unit): Executes the instructions that make up a program; performs primarily arithmetic and I/O (input/output) operations. You can think of it as the "brain" of the computer.
+- **RAM** (Random-Access Memory): Memory that can be read/written in any order, meaning it is *very* fast. The trade-off for this speed is that we get smaller amounts of memory than standard storage. As a result, we use this type of memory for temporary data (for example, data used by programs) since it is cleared very often. Also referred to as *primary storage*.
+- **Storage**: This type of memory is cheap and large in size, while also being non-volatile and retaining data between reboots. Used for persistent data (system files, user files, etc). Also referred to as *secondary storage*, this includes things like hard drives, USBs, SD cards; pretty much any memory device that doesn't get wiped constantly automatically. The main drawback is that unlike RAM, it is relatively slow.
 
-The most crucial part of the operating system is what is known as the *kernel*.
+While it may seem overwhelming at first, operating systems actually have one specific component that does most of the heavy lifting: the *kernel*.
 
-The **kernel** is a very *low-level* program that sits at the core of the operating system, having *near-complete* control over the entire operating system. It is concerned with handling interactions between the hardware and the software, including device drivers, resource usage, networking, etc. The kernel is typically the first program loaded after the *bootloader*, which handles the initial booting of the system.
+The **kernel** is a very *low-level* program that sits at the core of the operating system, having *near-complete* control over the entire operating system. It is concerned with handling interactions between the hardware and the software, including device drivers, resource usage, networking, etc. The kernel is typically the first real program loaded when you boot the computer.
 
 The remaining part of the operating system is commonly referred to as *user space* or *userland*. **User space** refers to essentially all code running *outside* of the kernel (but can still interact with it). This includes everything from init systems (responsible for starting up the OS), window managers (drawing windows to the screen, maximize/minimize functionality, etc.), to applications like your web browser.
 
